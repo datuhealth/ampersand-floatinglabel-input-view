@@ -1,6 +1,19 @@
-var AmpersandInputView = require( 'ampersand-input-view' );
+var AmpersandInputView = require( 'ampersand-input-view' ),
+    extend = require( 'amp-extend' );
 
 module.exports = AmpersandInputView.extend({
+    bindings: extend( AmpersandInputView.prototype.bindings, {
+        validityClass: [
+            {
+                type: 'class',
+                selector: 'input, textarea'
+            },
+            {
+                type: 'class',
+                hook: 'label'
+            }
+        ]
+    }),
     render: function() {
         'use strict';
 
