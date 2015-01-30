@@ -1,6 +1,6 @@
 {
   "name": "ampersand-floatinglabel-input-view",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "An extended Ampersand.js input view to provide floating labels on input elements",
   "repo": "https://github.com/datuhealth/ampersand-floatinglabel-input-view",
   "main": "ampersand-floatinglabel-input-view.js",
