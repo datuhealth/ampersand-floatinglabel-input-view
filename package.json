@@ -1,0 +1,32 @@
+{
+  "name": "ampersand-floatinglabel-input-view",
+  "version": "0.1.0",
+  "description": "An extended Ampersand.js input view to provide floating labels on input elements",
+  "repo": "https://github.com/datuhealth/ampersand-floatinglabel-input-view",
+  "main": "ampersand-floatinglabel-input-view.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "ampersand",
+    "ampersandjs",
+    "floating",
+    "floating",
+    "label",
+    "label",
+    "input",
+    "form"
+  ],
+  "author": "Mike Engel",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "ampersand-input-view": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jasmine-phantom": "^1.1.1",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-logwarn": "0.0.6"
+  }
+}
