@@ -5,7 +5,7 @@
   "repo": "https://github.com/datuhealth/ampersand-floatinglabel-input-view",
   "main": "ampersand-floatinglabel-input-view.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "mkdir tmp; browserify ./test/index.js > ./tmp/index.js; gulp test; rm -r tmp"
   },
   "keywords": [
     "ampersand",
@@ -24,10 +24,13 @@
     "ampersand-input-view": "^3.1.1"
   },
   "devDependencies": {
+    "browserify": "^8.1.1",
+    "chai": "^1.10.0",
     "gulp": "^3.8.10",
-    "gulp-jasmine-phantom": "^1.1.1",
     "gulp-jscs": "^1.4.0",
     "gulp-jshint": "^1.9.0",
-    "gulp-logwarn": "0.0.6"
+    "gulp-logwarn": "0.0.6",
+    "gulp-mocha-phantomjs": "^0.5.3",
+    "mocha": "^2.1.0"
   }
 }
