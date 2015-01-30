@@ -31,6 +31,7 @@
     "gulp-jshint": "^1.9.0",
     "gulp-logwarn": "0.0.6",
     "gulp-mocha-phantomjs": "^0.5.3",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "pre-commit": "^1.0.1"
   }
 }
