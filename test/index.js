@@ -79,7 +79,7 @@ describe( 'The input view', function() {
         expect( input.el.querySelector( '[data-hook="label"]' ).classList.contains( 'floating' )).to.equal( true );
     });
 
-    it( 'should not be floating when a user removes the value', function() {
+    it( 'should not be floating when a user removes the value if originally empty', function() {
         var input = new InputView({
             name: 'test',
             label: 'Test label',

@@ -15,7 +15,7 @@ module.exports = AmpersandInputView.extend({
         ]
     }),
     initialize: function( options ) {
-        "use strict";
+        'use strict';
         options = options || {};
 
         if ( options.labelClass ) {
@@ -45,7 +45,7 @@ module.exports = AmpersandInputView.extend({
 
         // Float the label up if there is input text, or, if the warning message
         // must be displayed (adjacent to label)
-        if ( this.input.value || (this.shouldValidate && !this.valid) ) {
+        if ( this.input.value || ( this.shouldValidate && this.changed ) ) {
             action = 'add';
         } else {
             action = 'remove';
