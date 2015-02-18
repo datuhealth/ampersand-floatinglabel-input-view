@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>floating label field input</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="demo.js"></script>
+    <style type="text/css" media="screen">
+        body {
+            font-size: 12px;
+            padding: 10px
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .label {
+            padding: 4px 4px 4px 0;
+        }
+
+        .message {
+            /*position: absolute;
+            top: 0;*/
+            display: inline-block;
+            padding: 2px 4px 2px 4px;
+        }
+
+        .message p {
+            margin: 0;
+        }
+
+        .message-error {
+            background: pink;
+            border-radius: 2px;
+            z-index: -1;
+            color: crimson;
+        }
+
+        .float-container {
+            position: relative;
+            height: 48px;
+            display: block;
+        }
+
+        .floating-label {
+            z-index: -1;
+            font-weight: bold;
+            display: inline-block;
+            position: absolute;
+            top: 30px;
+            visibility: none;
+            -webkit-transition: top .2s;
+                    transition: top .2s;
+        }
+
+        .floating-label.floating {
+            display: inline-block;
+            visibility: visible;
+            top: 5px;
+        }
+
+        .div-table {
+            display: table;
+        }
+        .div-row {
+            display: table-row;
+        }
+        .div-cell {
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+    <div id="target"></div>
+</body>
+</html>

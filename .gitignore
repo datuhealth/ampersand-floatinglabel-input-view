@@ -1,4 +1,5 @@
 node_modules
+.npmrc
 .tmp
 .DS_Store
 Thumbs.db
