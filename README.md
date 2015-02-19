@@ -82,7 +82,7 @@ Options are passed into the ViewConstructor
 
 `labelClass` - [*default: 'floating'*], applies 'yourClass' or 'yourClass andYourOtherClassToo' to data-hooked `label` element
 
-`template` - standard View convetion applies.  However, if attribute `data-hook="label-container"` is found, `labelClass` will be applied to it instead of `data-hook="label"`
+`template` - standard View convention applies.  However, if attribute `data-hook="label-container"` is found, `labelClass` will be applied to it instead of `data-hook="label"`
 
 See [ampersand-input-view](https://github.com/ampersandjs/ampersand-input-view#api-reference) for the api reference.
 
