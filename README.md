@@ -4,7 +4,7 @@ A simple ampersand input view extension to enable the [floating label pattern](h
 
 This extension will:
 
-- Dynamically provide a `floating` class on the `[data-hook="label"]` element for styling a floating label
+- Dynamically provide a `floating` class on the `[data-hook="label"]` element for styling a floating label.  Overridable by supplying option `labelClass: 'your other classes'`
 - Check if the input already has a value and float the label
 - Check if the input has a value as the user types and dynamically float the label
 
@@ -77,10 +77,18 @@ module.exports = AmpersandView.extend({
 
 ## API reference
 
+### options
+Options are passed into the ViewConstructor
+
+`labelClass` - [*default: 'floating'*], applies 'yourClass' or 'yourClass andYourOtherClassToo' to data-hooked `label` element
+
+`template` - standard View convention applies.  However, if attribute `data-hook="label-container"` is found, `labelClass` will be applied to it instead of `data-hook="label"`
+
 See [ampersand-input-view](https://github.com/ampersandjs/ampersand-input-view#api-reference) for the api reference.
 
 ## changelog
 
+- 1.1.0 - Permit overridable class(es) for label.  Add demo.  Rev input version req
 - 1.0.0 - Added tests to make sure everything worked well
 - 0.2.0 - Added input-invalid class to the label when the input is invalid
 - 0.1.0 - Initial release to github/npm

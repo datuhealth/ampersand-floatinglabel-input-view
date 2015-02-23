@@ -48,6 +48,21 @@ describe( 'The input view', function() {
         expect( input.el.querySelector( '[data-hook="label"]' ).classList.contains( 'floating' )).to.equal( true );
     });
 
+    it( 'should be alt-floating with an initial value', function() {
+        var input = new InputView({
+            name: 'test',
+            label: 'Test label',
+            value: 'Test value',
+            labelClass: 'floating alt-floating'
+        });
+
+        input.render();
+
+        expect( input.el.querySelector( '[data-hook="label"]' ).classList.contains( 'floating' )).to.equal( true );
+        expect( input.el.querySelector( '[data-hook="label"]' ).classList.contains( 'alt-floating' )).to.equal( true );
+
+    });
+
     it( 'should be floating when a user enters a value', function() {
         var input = new InputView({
             name: 'test',
@@ -64,7 +79,7 @@ describe( 'The input view', function() {
         expect( input.el.querySelector( '[data-hook="label"]' ).classList.contains( 'floating' )).to.equal( true );
     });
 
-    it( 'should not be floating when a user removes the value', function() {
+    it( 'should not be floating when a user removes the value if originally empty', function() {
         var input = new InputView({
             name: 'test',
             label: 'Test label',
@@ -100,7 +115,7 @@ describe( 'The input view', function() {
 
         input.setValue( 'test' );
         input.handleInputChanged();
-        input.handleBlur();
+        input.handleChange();
 
         expect( input.el.querySelector( '[data-hook="label"]' ).classList.contains( 'input-invalid' )).to.equal( true );
     });
@@ -125,7 +140,7 @@ describe( 'The input view', function() {
 
         input.setValue( 'test' );
         input.handleInputChanged();
-        input.handleBlur();
+        input.handleChange();
 
         expect( input.el.querySelector( 'input' ).classList.contains( 'input-invalid' )).to.equal( true );
     });
