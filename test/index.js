@@ -1,6 +1,16 @@
 var chai = require( 'chai' ),
+    suite = require( 'tape-suite' ),
+    ViewConventions = require( 'ampersand-view-conventions' ),
     InputView = require( '../ampersand-floatinglabel-input-view' ),
-    expect = chai.expect;
+    expect = chai.expect,
+    fieldOptions = {
+        name: 'test',
+        type: 'text',
+        placeholder: 'Test',
+        value: ''
+    };
+
+ViewConventions.view( suite.tape, InputView, fieldOptions )
 
 describe( 'The input view', function() {
     it( 'should be rendered', function() {
