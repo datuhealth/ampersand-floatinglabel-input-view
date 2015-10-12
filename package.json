@@ -35,7 +35,7 @@
     "browserify": "^11.2.0",
     "chai": "^3.3.0",
     "domready": "^1.0.7",
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.0",
     "gulp-jscs": "^3.0.1",
     "gulp-jshint": "^1.9.0",
     "gulp-logwarn": "0.0.8",
