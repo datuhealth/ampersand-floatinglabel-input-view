@@ -41,7 +41,7 @@
     "gulp-logwarn": "0.0.8",
     "gulp-mocha-phantomjs": "^0.10.1",
     "mocha": "^2.3.3",
-    "pre-commit": "^1.0.1",
+    "pre-commit": "^1.1.1",
     "tape-suite": "^0.2.1"
   }
 }

@@ -4,6 +4,4 @@ node_js:
 - 0.10.40
 - iojs
 script: npm test
-branches:
-  only:
-  - master
+sudo: false
