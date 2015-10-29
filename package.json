@@ -22,7 +22,7 @@
     "form"
   ],
   "author": "Mike Engel",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "amp-extend": "^1.0.1",
     "ampersand-input-view": "^5.0.0"
