@@ -37,7 +37,7 @@
     "domready": "^1.0.7",
     "gulp": "^3.9.0",
     "gulp-jscs": "^3.0.1",
-    "gulp-jshint": "^1.9.0",
+    "gulp-jshint": "^2.0.0",
     "gulp-logwarn": "0.0.8",
     "gulp-mocha-phantomjs": "^0.10.1",
     "mocha": "^2.3.3",
