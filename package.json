@@ -31,7 +31,7 @@
     "ampersand-form-view": "^5.1.1",
     "ampersand-view": "^9.0.0",
     "ampersand-view-conventions": "^1.1.6",
-    "beefy": "2.1.5",
+    "beefy": "2.1.6",
     "browserify": "^13.0.0",
     "chai": "^3.3.0",
     "domready": "^1.0.7",
