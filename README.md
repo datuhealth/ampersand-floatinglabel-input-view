@@ -88,6 +88,11 @@ See [ampersand-input-view](https://github.com/ampersandjs/ampersand-input-view#a
 
 ## changelog
 
+- 1.4.0 - Dependency updates
+- 1.3.0 - Dependency updates
+- 1.2.0 - Dependency updates
+- 1.1.3 - Dependency updates
+- 1.1.2 - Dependency updates
 - 1.1.1 - Adds ampersand-view-conventions to the tests
 - 1.1.0 - Permit overridable class(es) for label.  Add demo.  Rev input version req
 - 1.0.0 - Added tests to make sure everything worked well
