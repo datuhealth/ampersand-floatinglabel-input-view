@@ -88,6 +88,7 @@ See [ampersand-input-view](https://github.com/ampersandjs/ampersand-input-view#a
 
 ## changelog
 
+- 1.5.0 - Dependency updates (ampersand-view)
 - 1.4.0 - Dependency updates
 - 1.3.0 - Dependency updates
 - 1.2.0 - Dependency updates
