@@ -40,7 +40,7 @@
     "gulp-jshint": "^2.0.0",
     "gulp-logwarn": "0.0.9",
     "gulp-mocha-phantomjs": "^0.11.0",
-    "mocha": "^2.3.3",
+    "mocha": "^3.0.0",
     "pre-commit": "^1.1.1",
     "tape-suite": "^0.2.1"
   }
