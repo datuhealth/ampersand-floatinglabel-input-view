@@ -1,3 +1,7 @@
+# UNMAINTAINED
+
+This project is no longer being maintained. It's suggested that an alternative be used instead.
+
 # ampersand-floatinglabel-input-view
 
 A simple ampersand input view extension to enable the [floating label pattern](http://bradfrost.com/blog/post/float-label-pattern/).
